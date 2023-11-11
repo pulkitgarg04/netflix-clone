@@ -1,1 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+main {
+    margin: 0;
+    background-image: url("Media/Section_1_background_image.jpg");
+}
+
+.sub-heading {
+    font-family: "Netflix Sans", "Helvetica Neue", "Noto Sans", Roboto, Ubuntu, sans-serif;
+    font-size: 48px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.faq-heading {
+    text-align: center;
+    font-family: "Netflix Sans", "Helvetica Neue", "Noto Sans", Roboto, Ubuntu, sans-serif;
+    font-size: 48px;
+    line-height: normal;
+    letter-spacing: normal;
+}
