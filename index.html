@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,30 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="Media/favicon.ico">
 </head>
+
 <body>
-    <main>
-        <p>The biggest Indian hits. Ready to watch here from ₹ 149.</p>
+    <div class="section-1">
+        <header>
+            <nav>
+                <img src="Media/logo.png" class="logo" alt="logo">
+                <div>
+                    <select name="language" id="language-footer">
+                        <option value="en">English</option>
+                        <option value="hi">हिंदी</option>
+                    </select>
+                    <button>Sign In</button>
+                </div>
+            </nav>
+        </header>
+        <h1 class="h1-text">The biggest Indian hits. Ready to watch here from ₹ 149.</h1>
         <p>Join today. Cancel anytime.</p>
-        <p>Ready to watch? Enter your email to create or restart your membership.</p>
-        <form action="index.php">
+        <form class="membership-form" action="index.php">
+            <label class="membership-label">Ready to watch? Enter your email to create or restart your membership.</label><br>
             <input type="email" placeholder="Email Address">
             <button>Get Started ></button>
         </form>
-    </main>
+    </div>
+
     <section class="enjoy-on-tv">
         <h2 class="sub-heading">Enjoy on your TV</h2>
         <p class="sub-text">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
@@ -31,7 +46,8 @@
     </section>
     <section class="create-profiles">
         <h2 class="sub-heading">Create profiles for kids</h2>
-        <p class="sub-text">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+        <p class="sub-text">Send children on adventures with their favourite characters in a space made just for
+            them—free with your membership.</p>
     </section>
 
     <section class="faq">

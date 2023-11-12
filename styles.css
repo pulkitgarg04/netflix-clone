@@ -1,13 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu;
+    box-sizing: border-box;
+}
 
 body {
     background-color: #000000;
     color: #ffffff;
 }
 
-main {
-    margin: 0;
-    background-image: url("Media/Section_1_background_image.jpg");
+header {
+    height: 100px;
+    margin: 0 112px 0 112px;
+    padding: 24px 48px 24px 48px;
+}
+
+.section-1 {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("Media/Section_1_background_image.jpg");
+    background-size: cover;
+    background-position: cover;
+    display: block;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 40;
+    width: 150px;
+    border: 2px dotted red;
+}
+
+nav button {
+    border: 0;
+    outline: 0;
+    background-color: #DB0001;
+    color: #FFF;
+    padding: 7px 20px;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.h1-text {
+    font-size: 48px;
+    font-weight: 900;
+    height: 130px;
+    width: 1024px;
+    margin: 145px 0 0 160px;
+    border: 2px dotted red;
+}
+
+.section-1 > p {
+    height: 44px;
+    font-size: 24px;
+    border: 2px dotted red;
+}
+
+.membership-form {
+    border: 2px dotted red;
+}
+
+.membership-label {
+    font: 20px;
+    line-height: 30px;
+    min-height: auto;
+    min-width: auto;
 }
 
 .sub-heading {
@@ -15,6 +80,7 @@ main {
     font-size: 48px;
     line-height: normal;
     letter-spacing: normal;
+    /* border: 2px dotted red; */
 }
 
 .faq-heading {
